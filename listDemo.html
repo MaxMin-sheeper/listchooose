@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="listDemo.css"/>
+  </head>
+  <body>
+    <div class="list_out list_1">
+         <div class="text_input_area">     
+         </div>
+         <button class="list_choose">选择</button>
+         <div class="list_footer">
+            <ul class="list_body">
+                <li><input type="checkbox" name="" value="" class="hook" checked="true"><span>javascript</span></li>
+            </ul>
+            <button class="list_sure">确定</button>
+         </div>
+    </div>
+  </body>
+   <script type="text/javascript" src="lib/jquery.js"></script>
+    <script type="text/javascript" src="listDemo.js"></script>
+  <script>
+    const tot = new Total(".list_1","hooklist",[['html',false],['css',true],['c++',true],['java',true],['php',true],['c#',true],['c',true]]);
+  </script>
+</html>
