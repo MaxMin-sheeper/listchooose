@@ -1,0 +1,84 @@
+  *{
+         padding:0px;
+         margin: 0px;
+     }
+     
+     .list_out{
+      width: 400px;
+      height: 270px;
+      display: inline-block;
+    }
+
+    .list_body li{
+       list-style-type: none;
+       border-bottom: 2px solid #a3a3a3;
+       text-align: center;
+       line-height: 30px;
+    }
+    
+    .list_body li span{
+        margin: 0px 5px;
+        cursor: pointer;
+        
+    }
+
+    .text_input_area{
+        width: 80%;
+        padding: 5px 0px;
+        border: 1px solid black;
+        min-height: 22px;
+        float: left;
+    }
+    .text_input_item{
+      display: inline-block;
+      margin-left:5px;
+      line-height: 18px;
+      background-color:#e6e6e6;
+      color: #999999;
+      font-size: 14px;
+      padding: 2px 5px;
+    }
+
+    .input_item_remove{
+        cursor: pointer;
+    }
+
+    .option_label{  
+        display: inline-block;
+        height: 12px;
+        line-height: 10px;
+        width: 12px;
+        background-color: #999999;
+        color: white;
+    }
+    .double,.number{
+        float: right;
+        display: inline-block;
+        width: 20px;
+    }
+    .content{
+       display: inline-block;
+       width: 100px;
+    }
+    .list_body{
+        height: 200px;
+        overflow: auto;
+        width: 100%;
+    }
+    .list_sure{
+      display: block;
+      width: 60px;
+      float:right;
+      margin-top: 10px;
+    }
+    .hook{
+      margin-right: 10px;
+    }
+    .list_choose{
+       margin-left: 10px;
+       margin-top: 5px;
+    }
+    .list_footer{
+        width: 80%;
+        display: none;
+    }
